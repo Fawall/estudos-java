@@ -1,4 +1,4 @@
-package estudosjava.basico;
+package estudosjava.basico.OOP;
 
 public class Library {
 
@@ -37,7 +37,7 @@ class CreateLibrary {
         library.SetRelease(1900);
 
         System.out.println("Nome do livro: " + library.GetBookName() + "\nAtor: " + library.GetActor() +
-                "\nAno de lançamento" + library.GetRelease());
+                "\nAno de : " + library.GetRelease());
     }
 
 

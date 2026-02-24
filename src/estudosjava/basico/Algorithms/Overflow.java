@@ -1,4 +1,4 @@
-package estudosjava.basico;
+package estudosjava.basico.Algorithms;
 
 import java.util.Scanner;
 

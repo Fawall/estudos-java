@@ -1,4 +1,4 @@
-package estudosjava.basico;
+package estudosjava.basico.Algorithms;
 
 import java.util.Scanner;
 
@@ -22,7 +22,7 @@ public class SimpleSearch {
     }
 
     static String Search(int[] array, int n) {
-        for (int i = 0; i < array.length; i++) {
+        for (int i: array) {
 
             if(array[i] == n){
                 return "SIM";
